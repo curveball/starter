@@ -48,7 +48,6 @@
   },
   "types": "dist/",
   "nyc": {
-    "all": true,
     "extension": [
       ".ts"
     ]
