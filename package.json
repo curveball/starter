@@ -53,6 +53,6 @@
     ]
   },
   "dependencies": {
-    "@curveball/core": "^0.6.0"
+    "@curveball/core": "^0.7.0"
   }
 }
