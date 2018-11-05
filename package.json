@@ -34,17 +34,17 @@
   },
   "homepage": "https://github.com/curveballjs/new-package#readme",
   "devDependencies": {
-    "@types/chai": "^4.1.4",
+    "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.3",
-    "@types/node": "^10.3.6",
-    "@types/sinon": "^5.0.1",
-    "chai": "^4.1.2",
+    "@types/node": "^10.12.2",
+    "@types/sinon": "^5.0.5",
+    "chai": "^4.2.0",
     "mocha": "^5.2.0",
-    "nyc": "^12.0.2",
-    "sinon": "^6.0.1",
+    "nyc": "^13.1.0",
+    "sinon": "^7.1.1",
     "ts-node": "^7.0.0",
     "tslint": "^5.10.0",
-    "typescript": "^2.9.2"
+    "typescript": "^3.1.6"
   },
   "types": "dist/",
   "nyc": {
@@ -53,6 +53,6 @@
     ]
   },
   "dependencies": {
-    "@curveball/core": "^0.7.0"
+    "@curveball/core": "^0.8.1"
   }
 }
