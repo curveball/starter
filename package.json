@@ -6,7 +6,8 @@
   "scripts": {
     "prepublishOnly": "make build",
     "test": "make lint test",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "start": "make start"
   },
   "repository": {
     "type": "git",
