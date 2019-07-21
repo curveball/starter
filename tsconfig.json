@@ -12,6 +12,7 @@
         "noUnusedLocals": true,
         "noImplicitReturns": true,
         "noFallthroughCasesInSwitch": true,
+        "experimentalDecorators": true,
 
         "moduleResolution": "node",
         "sourceMap": true,
