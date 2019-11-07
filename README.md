@@ -1,8 +1,6 @@
 Curveball New Package
 =====================
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/curveballjs/new-package.svg)](https://greenkeeper.io/)
-
 This repository serves as the skeleton for all new [Curveball][1] packages.
 
 Installation
@@ -21,4 +19,4 @@ API
 
 ...
 
-[1]: https://github.com/curveballjs/
+[1]: https://github.com/curveball/
