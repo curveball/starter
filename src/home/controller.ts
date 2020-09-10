@@ -8,7 +8,7 @@ class HomeController extends Controller {
     ctx.response.type = 'application/json';
     ctx.response.body = {
       title: 'Hello World!'
-    }
+    };
 
   }
 
