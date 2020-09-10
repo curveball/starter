@@ -1,12 +1,12 @@
 {
-  "name": "@curveball/starter",
+  "name": "@badgateway/api-starter",
   "version": "0.0.1",
-  "description": "Minimal curveball starter template",
+  "description": "Minimal Bad Gateway API Starter Template",
   "main": "dist/index.js",
   "scripts": {
-    "prepublishOnly": "tsc",
+    "prepublishOnly": "make build",
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "make start",
     "start:watch": "tsc-watch --onSuccess 'node dist/index.js'",
     "watch": "tsc --watch",
     "lint": "eslint --quiet 'src/*.ts'",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/curveball/new-package.git"
+    "url": "git+https://github.com/badgateway/api-starter.git"
   },
   "files": [
     "package.json",
@@ -25,14 +25,17 @@
   "author": "Evert Pot (https://evertpot.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/curveball/starter/issues"
+    "url": "https://github.com/badgateway/api-starter/issues"
   },
-  "homepage": "https://github.com/curveball/starter#readme",
+  "homepage": "https://github.com/badgateway/api-starter#readme",
   "devDependencies": {
     "@types/node": "^10.17.30",
     "@typescript-eslint/eslint-plugin": "^4.1.0",
     "@typescript-eslint/parser": "^4.1.0",
     "eslint": "^7.8.1",
+    "hal-types": "^1.2.1",
+    "nyc": "^15.1.0",
+    "ts-node": "^9.0.0",
     "tsc-watch": "^4.2.9",
     "typescript": "^3.9.7"
   },
@@ -48,6 +51,9 @@
     "@curveball/controller": "^0.2.2",
     "@curveball/core": "^0.11.2",
     "@curveball/problem": "^0.2.2",
-    "@curveball/router": "^0.2.4"
+    "@curveball/router": "^0.2.4",
+    "dotenv": "^8.2.0",
+    "dotenv-defaults": "^2.0.1",
+    "hal-browser": "^0.8.6"
   }
 }

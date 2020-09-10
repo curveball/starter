@@ -9,3 +9,9 @@
 
 # nyc
 /.nyc_output
+
+# macOS
+.DS_Store
+
+# dotenv
+.env
