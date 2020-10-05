@@ -7,7 +7,7 @@
     "prepublishOnly": "tsc",
     "build": "tsc",
     "start": "node dist/index.js",
-    "start:watch": "tsc-watch --onSuccess 'node dist/index.js'",
+    "start:watch": "tsnd --respawn --transpile-only src/index.ts",
     "watch": "tsc --watch",
     "lint": "eslint --quiet 'src/*.ts'",
     "fix": "eslint --quiet 'src/**/*.ts' --fix"
@@ -29,12 +29,13 @@
   },
   "homepage": "https://github.com/curveball/starter#readme",
   "devDependencies": {
-    "@types/node": "^10.17.30",
-    "@typescript-eslint/eslint-plugin": "^4.1.0",
-    "@typescript-eslint/parser": "^4.1.0",
-    "eslint": "^7.8.1",
+    "@types/node": "^14.11.2",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "eslint": "^7.10.0",
+    "ts-node-dev": "^1.0.0-pre.63",
     "tsc-watch": "^4.2.9",
-    "typescript": "^3.9.7"
+    "typescript": "^4.0.3"
   },
   "types": "dist/",
   "nyc": {
@@ -45,8 +46,8 @@
   "dependencies": {
     "@curveball/accesslog": "^0.2.0",
     "@curveball/bodyparser": "^0.4.6",
-    "@curveball/controller": "^0.2.2",
-    "@curveball/core": "^0.11.2",
+    "@curveball/controller": "^0.3.0",
+    "@curveball/core": "^0.14.2",
     "@curveball/problem": "^0.2.2",
     "@curveball/router": "^0.2.4"
   }
