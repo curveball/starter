@@ -12,14 +12,14 @@ test:
 
 .PHONY:lint
 lint:
-	node_modules/.bin/eslint --quiet 'src/*.ts' 'test/*.ts'
+	node_modules/.bin/eslint --quiet 'src/*.ts'
 
 .PHONY:lint-fix
 lint-fix: fix
 
 .PHONY:fix
 fix:
-	node_modules/.bin/eslint --quiet 'src/**/*.ts' 'test/**/*.ts' --fix
+	node_modules/.bin/eslint --quiet 'src/**/*.ts' --fix
 
 .PHONY:watch
 watch:
