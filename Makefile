@@ -8,7 +8,7 @@ build: dist/build package-lock.json
 
 .PHONY:test
 test:
-	./node_modules/.bin/nyc ./node_modules/.bin/mocha
+	node_modules/.bin/nyc node_modules/.bin/mocha
 
 .PHONY:lint
 lint:
