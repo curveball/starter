@@ -8,18 +8,18 @@ build: dist/build package-lock.json
 
 .PHONY:test
 test:
-	./node_modules/.bin/nyc ./node_modules/.bin/mocha
+	node_modules/.bin/nyc node_modules/.bin/mocha
 
 .PHONY:lint
 lint:
-	node_modules/.bin/eslint --quiet 'src/*.ts'
+	node_modules/.bin/eslint --quiet 'src/*.ts' 'test/*.ts'
 
 .PHONY:lint-fix
 lint-fix: fix
 
 .PHONY:fix
 fix:
-	node_modules/.bin/eslint --quiet 'src/**/*.ts' --fix
+	node_modules/.bin/eslint --quiet 'src/**/*.ts' 'test/**/*.ts' --fix
 
 .PHONY:watch
 watch:
