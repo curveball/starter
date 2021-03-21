@@ -4,7 +4,7 @@ import accessLog from '@curveball/accesslog';
 
 import { checkPatches } from './database';
 
-import halBrowser from 'hal-browser';
+import halBrowser from '@curveball/browser';
 import problem from '@curveball/problem';
 import bodyParser from '@curveball/bodyparser';
 
