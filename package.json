@@ -53,13 +53,13 @@
   "dependencies": {
     "@curveball/accesslog": "^0.2.0",
     "@curveball/bodyparser": "^0.4.6",
+    "@curveball/browser": "^0.14.7",
     "@curveball/controller": "^0.3.0",
-    "@curveball/core": "^0.15.0",
-    "@curveball/problem": "^0.2.2",
-    "@curveball/router": "^0.2.4",
+    "@curveball/core": "^0.16.2",
+    "@curveball/problem": "^0.3.0",
+    "@curveball/router": "^0.3.0",
     "dotenv": "^8.2.0",
     "dotenv-defaults": "^2.0.1",
-    "hal-browser": "^0.8.6",
     "mysql2": "^2.2.5"
   },
   "mocha": {
