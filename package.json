@@ -7,7 +7,7 @@
     "prepublishOnly": "tsc",
     "build": "tsc",
     "start": "node dist/index.js",
-    "start:watch": "npx tsc-watch --onSuccess 'node dist/index.js'",
+    "start:watch": "tsc-watch --onSuccess 'node dist/index.js'",
     "watch": "tsc --watch",
     "lint": "eslint --quiet 'src/*.ts'",
     "fix": "eslint --quiet 'src/**/*.ts' --fix"
