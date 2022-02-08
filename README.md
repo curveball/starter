@@ -1,28 +1,17 @@
-Curveball Starter Template
-==========================
+WebSocket Load Balancer
+========================
 
-Hit the ground running with a minimal boilerplate for a Curveball application.
+This repository will contain the ZeroLens WebSocket Load Balancer.
 
 
-What's included
+Running locally
 ---------------
 
-This package contains a basic set up for that will be needed for most Curveball
-applications, and comes with a suggested application structure.
+Todo: lots of configuration stuff =)
+
+```sh
+npm i
+npm run-script start
+```
 
 
-Getting started
----------------
-
-Copy this repository
-
-    git clone https://github.com/curveball/starter <project_name>
-
-Build and run the project
-
-    cd <project_name>
-    npm i
-    npm run build
-    npm start
-
-After this, open `http://localhost:8500` to see your application in action.
